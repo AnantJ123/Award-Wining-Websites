@@ -1,0 +1,21 @@
+1. Constructor function
+// jab aapke paas aisa koi bhi mauka ho ke apke ek
+//  jaisi property waale bahut saare elements baanae hai us waqt aap constructor fnc use kar sakte ho.
+
+function circularButtonBanao(color){
+    this.radius = 2;
+    this.color=color;
+    this.icon=flase;
+    this.pressable=true;
+} 
+
+var redbtn = new circularButtonBanao("red");
+var greenbtn = new circularButtonBanao("green");
+
+2.First class functions
+// a language is said to have first class fucntions when the fucntions in the language are treated as normal value or li
+// like variable you can save htem you can paas them as arugments to another functions.
+
+3. New keyword 
+// it is the blank function for the constructor function which is getting called 
+// just after new keyword 
